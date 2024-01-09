@@ -8,14 +8,23 @@ let score = "33abc"
 
 let valueInNumber = Number(score);
 
-console.log(valueInNumber);
+// console.log(valueInNumber);
 
 
 let isLoggedIn = 1
 
 let booleanIsLogged = Boolean(isLoggedIn);
 
+// console.log(booleanIsLogged);
 
+let someNumber = 55
+
+let stringNumber = String(someNumber);
+
+console.log(typeof stringNumber);
+
+
+/*******************   Operations    *********************/
 
 
 
