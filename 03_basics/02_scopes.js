@@ -1,4 +1,4 @@
-// let a = 10
+let a = 100
 // const b = 20
 // var c = 300
 
@@ -8,6 +8,6 @@ const b = 20
 var c = 30
 }
 
-// console.log(a);
+console.log(a);
 // console.log(b);
-console.log(c);
+// console.log(c);
