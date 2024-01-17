@@ -52,10 +52,41 @@ const users = [
 
 // console.log(tinderUsers);
 
-console.log(Object.keys(tinderUsers));
+// console.log(Object.keys(tinderUsers));
 
-console.log(Object.values(tinderUsers));
+// console.log(Object.values(tinderUsers));
 
-console.log(Object.entries(tinderUsers));
+// console.log(Object.entries(tinderUsers));
 
-console.log(tinderUsers.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUsers.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    name: "JS Learning",
+    price: 999,
+    courseinstuctor: "Arsh"
+}
+
+// console.log(course.courseinstuctor);
+
+const {courseinstuctor: instuctor} = course
+
+console.log(instuctor);
+
+// API gets the data in json format,
+
+// {
+//     "name": "Arsh"
+//     "sourcename": "JS Learning"
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+// Random User me API = https://randomuser.me/
+
+// json formatter to to formate and beautify the code and change its structure to tree to understand API's data 
+// https://jsonformatter.org/
