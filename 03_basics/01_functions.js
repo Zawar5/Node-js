@@ -33,4 +33,42 @@ function loginUserMesg(username){
 
 // console.log(loginUserMesg("ArshMan")); 
 
-console.log(loginUserMesg()); 
+// console.log(loginUserMesg()); 
+
+
+
+
+/************    ******************/
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 600));
+
+const user = {
+    name: "Zawar",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`User name is ${anyobject.name} and Prioce is ${anyobject.price}`);
+}
+
+// handleObject(user)
+
+handleObject({
+    name: "Arsh",
+    price: 789
+})
+
+
+const myNewArr = [200, 400, 600, 800]
+
+function arryfunc(getArray){
+    return getArray[1]
+}
+
+// console.log(arryfunc(myNewArr));
+
+console.log(arryfunc([200, 600, 800]));
