@@ -33,6 +33,18 @@ if (Object.keys(emptyObj).length === 0) {
 let val1;
 
 // val1 = 5 ?? 10
-val1 = null ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+
+val1 = null ?? 10 ?? 20
 
 console.log(val1);
+
+
+// Terniary Operator
+
+// condition ? true : false
+
+const iceteaPrice = 100
+
+iceteaPrice <= 80 ? console.log("Less then 80") : console.log("greater then 80")
